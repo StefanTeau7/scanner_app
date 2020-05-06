@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "215418790578",
+    "firebase_url": "https://scazy-9680f.firebaseio.com",
+    "project_id": "scazy-9680f",
+    "storage_bucket": "scazy-9680f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215418790578:android:5398b264feb8e476ec5fab",
+        "android_client_info": {
+          "package_name": "com.example.scanner_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215418790578-djupm0pfjo1fu5k4e8gphbpshiq6a7h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm_10kAnUTNpXP0x0oev3yd06j6dx2N04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215418790578-djupm0pfjo1fu5k4e8gphbpshiq6a7h3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "215418790578-cj1gl7v7r33obpq0uufltlueac4t25ao.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.scannerApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

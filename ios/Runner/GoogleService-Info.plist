@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>215418790578-cj1gl7v7r33obpq0uufltlueac4t25ao.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.215418790578-cj1gl7v7r33obpq0uufltlueac4t25ao</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCvchof8BiQzQf7NkrmkPwJFKe-JMGQIg8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>215418790578</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.scannerApp</string>
+	<key>PROJECT_ID</key>
+	<string>scazy-9680f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>scazy-9680f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:215418790578:ios:bbf3651e1c2d175eec5fab</string>
+	<key>DATABASE_URL</key>
+	<string>https://scazy-9680f.firebaseio.com</string>
+</dict>
+</plist>

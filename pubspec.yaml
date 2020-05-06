@@ -1,0 +1,44 @@
+name: scanner_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  firebase_auth: ^0.15.5+3
+  animated_text_kit: ^1.3.0
+  cloud_firestore: ^0.13.4+2
+  modal_progress_hud: ^0.1.3
+  image_picker: ^0.6.5+2
+  dotted_border: ^1.0.5
+  barcode_scan: ^3.0.0
+  flappy_search_bar: ^1.7.2
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - images/logo.png
+   - images/barcode.png
+   - images/product.png
+   - images/table.png
+   - images/map.png
+   
+  fonts:
+    - family: Kreon
+      fonts:
+        - asset: fonts/Kreon-VariableFont_wght.ttf
