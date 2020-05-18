@@ -4,6 +4,7 @@ import 'package:scanner_app/app_screens/main_screen.dart';
 import 'package:scanner_app/others/constants.dart';
 import 'package:scanner_app/others/widgets.dart';
 import 'package:scanner_app/register_screens/login_screen_email.dart';
+import 'package:scanner_app/register_screens/register_screen_email.dart';
 
 class WelcomeScreen extends StatefulWidget {
   @override
@@ -63,7 +64,10 @@ class _WelcomeScreenState extends State<WelcomeScreen>
               title: 'Register',
               colour: secondColor,
               onPressed: () {
-                // Navigator.push(context, );
+                                                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => RegisterScreen()),
+                  );
               },
             ),
             Text("--- or ---",
@@ -76,18 +80,21 @@ class _WelcomeScreenState extends State<WelcomeScreen>
             Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
-                RoundedButton(
+        RoundedButton(
                   title: 'Enter app anonymously',
                   colour: secondColor,
-          onPressed: () async {
+                 onPressed: () async {
             dynamic result = await _auth.signInAnon();
             if(result == null){
               print('error signing in');
             } else {
               print('signed in');
               print(result.uid);
-              MaterialPageRoute(builder: (context) => MainScreen(user:result));
-
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => MainScreen()),
+                  );
+              //MaterialPageRoute(builder: (context) => MainScreen(user:result));
             }
           },
                 ),

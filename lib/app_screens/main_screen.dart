@@ -11,11 +11,14 @@ import 'package:barcode_scan/barcode_scan.dart';
 import 'package:scanner_app/others/widgets.dart';
 
 class MainScreen extends StatefulWidget {
-  final FirebaseUser user;
+  // final FirebaseUser user;
 
-  MainScreen({Key key, this.user})
-      : assert(user != null),
-        super(key: key);
+  // MainScreen({Key key, this.user})
+  //     : assert(user != null),
+  //       super(key: key);
+
+    MainScreen({Key key, })
+      : super(key: key);
 
   @override
   _MainScreenState createState() => _MainScreenState();
@@ -186,6 +189,7 @@ class _MainScreenState extends State<MainScreen> {
                       'Durex - 0 cal',
                       style: TextStyle(color: Colors.white, fontFamily: myFont),
                     ),
+
                   ],
                 )
               ],
